@@ -1,0 +1,248 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+	list-style: none; 
+}
+
+#global{
+	width: 65%; 
+	margin: 0px auto; 
+	margin-top: 30px; 
+	background: white; 
+	padding: 25px; 
+	box-shadow: 0px 0px 0px #ccc; 
+}
+
+#logo{
+	font-family: Verdana, Arial; 
+	font-size: 30px; 
+	letter-spacing: 4px;
+	color: white; 
+	text-align: center;
+	width: 385px; 
+	height: 80px; 
+	float: left;
+	margin-bottom: 20px; 
+	line-height: 75px
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#menu{
+	font-family: Helvetica, Arial; 
+	background: #333; 
+	width: 100%; 
+	text-transform: uppercase;
+	margin-bottom: 20px; 
+}
+#menu ul{
+	line-height: 40px; 
+}
+
+#menu ul li{
+	height: 40px; 
+	display: inline-block;
+	transition: all 300ms;
+}
+
+
+
+#menu ul li a{
+	display: block;
+	color: white;
+	text-decoration: none; 
+	padding-left: 30px; 
+	padding-right: 30px; 
+
+}
+
+#posts{
+	width: 60%; 
+	font-family: Helvetica , Arial; 
+	float: left;
+
+}
+
+h2{
+	font-size: 30px; 
+	color: #333; 
+	font-family: Helvetica , Arial;
+	text-align: center;
+
+}
+
+.post .date{
+	display: block; 
+	color: gray; 
+	margin-top:5px ;
+}
+
+.post p{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	line-height: 20px; 
+	text-align:justify;
+
+}
+
+.button-more{
+	background:#235E3d; 
+	color: white;
+	padding: 15px; 
+	text-decoration: none; 
+	width: 70px; 
+	display: block;
+	float: auto; 
+	font-size: 14px; 
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+aside{
+	font-family: Helvetica, Arial; 
+	width: 34%; 
+	float: right;
+}
+
+aside h4{
+	margin-top: 50px; 
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 10px; 
+	color: #333;
+	background: #333; 
+	padding:0px 4px; 
+}
+aside .sp{
+	background: white
+}
+
+#sidebar img {
+width: 100%; 
+}
+
+#sidebar p{
+	font-size: 14px; 
+	text-align:justify;
+}
+
+form 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+	padding: 5px; 
+	border-radius: 2px; 
+	border:1px solid #ccc;
+	width: 80%; 
+	margin-bottom: 10px; 
+	margin-top: 5px;
+}
+
+form input[type="submit"]{
+padding: 10px; 
+width: 30%;
+color: white; 
+background: #eee;  
+border: 1px solid #ccc; 
+color: #333; 
+cursor: pointer;
+}
+
+footer{
+	width: 65%;
+	color: white;
+	height: 47px; 
+	background: rgba(51,51,51, 0.70); 
+	margin: 0px auto;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+	margin-top: 50px; 
+	line-height: 47px; 
+
+}
+
+.bx-viewport, .bx-wrapper{
+	height: 250px !important;
+}
+
+#selector-theme{
+	position: fixed;
+	top: 40%; 
+	background: rgba(51,51,51, 0.5);
+	width: 50px; 
+	height: 100px; 
+}
+
+#to-green,
+#to-yellow,
+#to-blue{
+	width: 25px; 
+	height: 25px; 
+	border: 1px solid white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	cursor: pointer;
+}
+
+#to-green{
+	background:#235E3d; 
+}
+#to-yellow{
+ background: yellow;
+}
+#to-blue{
+background:  #1f87c4;
+}
+
+#arriba{
+	color: white; 
+	text-decoration: none; 
+	float: right;
+	display: block;
+}
+#box{
+	float: left;
+	width: 60%;
+	margin-top: 40px;  
+}
+
+#acordeon{
+	margin-top: 20px; 
+}
+
+#reloj{
+	font-size: 40px; 
+	font-weight: bold;
+	font-family: Helvetica, Arial; 
+	color: #333;
+	border: 5px solid #333; 
+	text-align: center;
+}
+#Form-Contact{
+	width: 60%;
+	margin-top: 15px; 
+}
+
+#Form-Contact label{
+	width: 100%; 
+	font-family: Helvetica, Arial; 
+	display: block;
+	margin-top: 5px; 
+
+}
+.form-error{
+	    float: right;
+    font-size: 11px;
+    background: red;
+    color: white;
+    padding: 5px;
+    width: 63%;
+     
+}

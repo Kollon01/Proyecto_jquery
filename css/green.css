@@ -1,0 +1,14 @@
+body {
+	background: url("../img/nettle.jpg");
+	background-attachment: fixed;  
+}
+#logo{
+	background: #235E3d;
+}
+#menu ul li:hover{
+	background:#235E3d; 
+}
+.button-more{
+	background:#235E3d; 
+
+}

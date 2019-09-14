@@ -1,0 +1,14 @@
+body {
+	background: url("../img/leaf.jpg");
+	background-attachment: fixed;  
+}
+#logo{
+	background: yellow;
+}
+#menu ul li:hover{
+	background:yellow; 
+}
+.button-more{
+	background:yellow; 
+
+}
